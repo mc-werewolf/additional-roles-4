@@ -1,3 +1,5 @@
+import "./werewolf/events/PlayerInteractWithEntity";
+
 import { Kairo, type KairoCommand, type KairoResponse } from "@kairo-js/router";
 import { SystemManager } from "@mc-werewolf/game-module";
 import { properties } from "./properties";
