@@ -5,7 +5,7 @@ import type { KairoAddonProperties } from "@kairo-js/router";
  * Modify and use where # is written at the end of the sentence as appropriate
  */
 export const properties: KairoAddonProperties = {
-    id: "werewolf-additionalroles-1", // a-z & 0-9 - _
+    id: "werewolf-additionalroles-4", // a-z & 0-9 - _
     metadata: {
         authors: ["shizuku86", "Lemonesan123"],
     },

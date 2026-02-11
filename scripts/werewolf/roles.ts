@@ -15,15 +15,14 @@ export const roles: RoleDefinition[] = [
             translate: WEREWOLF_ADDITIONALROLES_FOUR_TRANSLATE_IDS.ROLE_DESCRIPTION_GHOST,
         },
         factionId: "villager",
-        count: { max: 10 },
-        sortIndex: 706001,
+        sortIndex: 403,
         skills: [
             {
                 id: "ghost-obe",
                 name: {
                     translate: WEREWOLF_ADDITIONALROLES_FOUR_TRANSLATE_IDS.GHOST_SKILL_NAME,
                 },
-                cooldown: 10,
+                cooldown: 150,
                 maxUses: 10,
             },
         ],
