@@ -1,10 +1,10 @@
-werewolf-rolemone-pack.name=ROLEMONE Pack 1
-werewolf-rolemone-pack.description=Created by Lemonesan123 
+werewolf-additionalroles-4.name=Werewolf Additional Roles IV
+werewolf-additionalroles-4.description=The fourth expansion pack introducing new roles to the Werewolf game.
 
-werewolf-rolemone-pack.role.name.ghost=Ghost
-werewolf-rolemone-pack.role.description.ghost=Astral Projection (Bloodline Trait). Allows the user to leave their body for up to 10 seconds. However, if the physical vessel is destroyed during the projection, the user cannot return and suffers permanent death.
-werewolf-rolemone-pack.skill.name.ghost=§aAstral projectionr
-werewolf-rolemone-pack.skill.message.ghost.start=§bI’ve left my body...§r
-werewolf-rolemone-pack.skill.message.ghost.return=§eReturning to my physical shell...§r
-werewolf-rolemone-pack.skill.message.ghost.search.notbody=§cWhere is my body? It’s... gone.§r
-werewolf-rolemone-pack.skill.message.ghost.notbody.deadlog=§cMy physical shell is shattered. The path back is gone forever§r
+werewolf-additionalroles-4.role.name.ghost=Ghost
+werewolf-additionalroles-4.role.description.ghost=Astral Projection (Bloodline Trait). Allows the user to leave their body for up to 10 seconds. However, if the physical vessel is destroyed during the projection, the user cannot return and suffers permanent death.
+werewolf-additionalroles-4.skill.name.ghost=§aAstral projectionr§r
+werewolf-additionalroles-4.skill.message.ghost.start=§bI’ve left my body...§r
+werewolf-additionalroles-4.skill.message.ghost.return=§eReturning to my physical shell...§r
+werewolf-additionalroles-4.skill.message.ghost.search.notbody=§cWhere is my body? It’s... gone.§r
+werewolf-additionalroles-4.skill.message.ghost.notbody.deadlog=§cMy physical shell is shattered. The path back is gone forever§r

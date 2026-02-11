@@ -1,10 +1,10 @@
-werewolf-rolemone-pack.name=ROLEMONE Pack 1
-werewolf-rolemone-pack.description=製作者 : Lemonesan123
+werewolf-additionalroles-4.name=マイクラ人狼 役職追加パック 肆
+werewolf-additionalroles-4.description=マイクラ人狼に新たな役職を追加するパックの第肆弾
 
-werewolf-rolemone-pack.role.name.ghost=幽霊
-werewolf-rolemone-pack.role.description.ghost=血族の力により幽体離脱が自由にできる。１０秒ほど幽体離脱ができるが、その間本体が殺されると戻れなくなり死亡となる。
-werewolf-rolemone-pack.skill.name.ghost=§a幽体離脱をする§r
-werewolf-rolemone-pack.skill.message.ghost.start=§b幽体離脱をした...§r
-werewolf-rolemone-pack.skill.message.ghost.return=§e本体に戻る...§r
-werewolf-rolemone-pack.skill.message.ghost.search.notbody=§c本体が..見つからない...§r
-werewolf-rolemone-pack.skill.message.ghost.notbody.deadlog=§c本体が破壊され、戻れる場所がなくなってしまった...§r
+werewolf-additionalroles-4.role.name.ghost=幽霊
+werewolf-additionalroles-4.role.description.ghost=血族の力により幽体離脱が自由にできる。１０秒ほど幽体離脱ができるが、その間本体が殺されると戻れなくなり死亡となる。
+werewolf-additionalroles-4.skill.name.ghost=§a幽体離脱§r
+werewolf-additionalroles-4.skill.message.ghost.start=§b幽体離脱をした...§r
+werewolf-additionalroles-4.skill.message.ghost.return=§e本体に戻る...§r
+werewolf-additionalroles-4.skill.message.ghost.search.notbody=§c本体が..見つからない...§r
+werewolf-additionalroles-4.skill.message.ghost.notbody.deadlog=§c本体が破壊され、戻れる場所がなくなってしまった...§r
