@@ -3,7 +3,10 @@ werewolf-additionalroles-4.description=マイクラ人狼に新たな役職を�
 
 werewolf-additionalroles-4.role.name.ghost=幽霊
 werewolf-additionalroles-4.role.description.ghost=血族の力により幽体離脱が自由にできる。１０秒ほど幽体離脱ができるが、その間本体が殺されると戻れなくなり死亡となる。
+werewolf-additionalroles-4.role.name.ghost-wolf=幽狼
+werewolf-additionalroles-4.role.description.ghost-wolf=狼の血族の力により幽体離脱が自由にできる。１０秒ほど幽体離脱ができるが、その間本体が殺されると戻れなくなり死亡となる。人間より狼の血族の精神が強いため、本体を透明化できる。
 werewolf-additionalroles-4.skill.name.ghost=§a幽体離脱§r
+werewolf-additionalroles-4.skill.name.ghost-wolf=§4幽体離脱§r
 werewolf-additionalroles-4.skill.message.ghost.start=§b幽体離脱をした...§r
 werewolf-additionalroles-4.skill.message.ghost.return=§e本体に戻る...§r
 werewolf-additionalroles-4.skill.message.ghost.search.notbody=§c本体が..見つからない...§r
