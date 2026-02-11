@@ -26,9 +26,31 @@ export const roles: RoleDefinition[] = [
                 maxUses: 10,
             },
         ],
-        color: "§a",
         handleGameEvents: {
             SkillUse: { skillId: "ghost-obe" },
+        },
+    },
+
+    {
+        id: "ghost-wolf",
+        name: { translate: WEREWOLF_ADDITIONALROLES_FOUR_TRANSLATE_IDS.ROLE_NAME_GHOST_WOLF },
+        description: {
+            translate: WEREWOLF_ADDITIONALROLES_FOUR_TRANSLATE_IDS.ROLE_DESCRIPTION_GHOST_WOLF,
+        },
+        factionId: "werewolf",
+        sortIndex: 404,
+        skills: [
+            {
+                id: "ghost-wolf-obe",
+                name: {
+                    translate: WEREWOLF_ADDITIONALROLES_FOUR_TRANSLATE_IDS.GHOST_WOLF_SKILL_NAME,
+                },
+                cooldown: 150,
+                maxUses: 10,
+            },
+        ],
+        handleGameEvents: {
+            SkillUse: { skillId: "ghost-wolf-obe" },
         },
     },
 ];

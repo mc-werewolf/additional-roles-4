@@ -3,7 +3,10 @@ werewolf-additionalroles-4.description=The fourth expansion pack introducing new
 
 werewolf-additionalroles-4.role.name.ghost=Ghost
 werewolf-additionalroles-4.role.description.ghost=Astral Projection (Bloodline Trait). Allows the user to leave their body for up to 10 seconds. However, if the physical vessel is destroyed during the projection, the user cannot return and suffers permanent death.
+werewolf-additionalroles-4.role.name.ghost-wolf=Ghost Wolf
+werewolf-additionalroles-4.role.description.ghost-wolf=Astral Projection. Duration: 10 seconds. Risk: Death if the physical body is destroyed. Advantage: Due to the superior spiritual strength of the wolf kin, the user's physical body remains invisible during the projection.
 werewolf-additionalroles-4.skill.name.ghost=§aAstral projectionr§r
+werewolf-additionalroles-4.skill.name.ghost-wolf=§4Astral projectionr§r
 werewolf-additionalroles-4.skill.message.ghost.start=§bI’ve left my body...§r
 werewolf-additionalroles-4.skill.message.ghost.return=§eReturning to my physical shell...§r
 werewolf-additionalroles-4.skill.message.ghost.search.notbody=§cWhere is my body? It’s... gone.§r
