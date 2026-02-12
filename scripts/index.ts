@@ -35,6 +35,7 @@ Kairo.onDeactivate = () => {
      */
 
     SystemManager.getInstance().unsubscribeEvents();
+    SystemManager.destroy();
 };
 
 Kairo.onScriptEvent = async (command: KairoCommand): Promise<void | KairoResponse> => {
