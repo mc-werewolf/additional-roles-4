@@ -16,4 +16,6 @@ export const WEREWOLF_ADDITIONALROLES_FOUR_TRANSLATE_IDS = {
     ROLE_DESCRIPTION_GHOST_WOLF: "werewolf-additionalroles-4.role.description.ghost-wolf",
 
     GHOST_WOLF_SKILL_NAME: "werewolf-additionalroles-4.skill.name.ghost-wolf",
+
+    ROLE_GROUP_NAME_WEREWOLVES: "werewolf-vanillapack.roleGroup.name.werewolves",
 };

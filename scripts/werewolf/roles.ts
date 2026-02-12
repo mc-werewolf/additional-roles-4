@@ -49,6 +49,18 @@ export const roles: RoleDefinition[] = [
                 maxUses: 10,
             },
         ],
+        roleGroup: {
+            id: "werewolves",
+            name: {
+                translate: WEREWOLF_ADDITIONALROLES_FOUR_TRANSLATE_IDS.ROLE_GROUP_NAME_WEREWOLVES,
+            },
+            color: "§4",
+        },
+        revealTo: {
+            roleGroups: ["werewolves"],
+        },
+        divinationResult: "werewolf",
+        clairvoyanceResult: "ghost-wolf",
         handleGameEvents: {
             SkillUse: { skillId: "ghost-wolf-obe" },
         },
