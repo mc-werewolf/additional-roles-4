@@ -11,3 +11,5 @@ werewolf-additionalroles-4.skill.message.ghost.start=§bI’ve left my body...§
 werewolf-additionalroles-4.skill.message.ghost.return=§eReturning to my physical shell...§r
 werewolf-additionalroles-4.skill.message.ghost.search.notbody=§cWhere is my body? It’s... gone.§r
 werewolf-additionalroles-4.skill.message.ghost.notbody.deadlog=§cMy physical shell is shattered. The path back is gone forever§r
+
+werewolf-additionalroles-4.roleGroup.name.werewolves=Werewolves

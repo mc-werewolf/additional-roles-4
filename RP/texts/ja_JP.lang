@@ -11,3 +11,5 @@ werewolf-additionalroles-4.skill.message.ghost.start=§b幽体離脱をした...
 werewolf-additionalroles-4.skill.message.ghost.return=§e本体に戻る...§r
 werewolf-additionalroles-4.skill.message.ghost.search.notbody=§c本体が..見つからない...§r
 werewolf-additionalroles-4.skill.message.ghost.notbody.deadlog=§c本体が破壊され、戻れる場所がなくなってしまった...§r
+
+werewolf-additionalroles-4.roleGroup.name.werewolves=人狼
