@@ -3,6 +3,7 @@ import type { GameEventHandlerMap } from "@mc-werewolf/game-module";
 import { WEREWOLF_ADDITIONALROLES_FOUR_TRANSLATE_IDS } from "../constants/translate";
 import type { SkillEventContext } from "@mc-werewolf/game-module/lib/game/ingame/game/SkillManager";
 import { MinecraftEffectTypes } from "@minecraft/vanilla-data";
+import { ActionFormData } from "@minecraft/server-ui";
 
 export const ghostSkillHandlers: GameEventHandlerMap = {
     "ghost-obe": async (ev) => {
@@ -24,13 +25,37 @@ export async function ghostSkill(
     const body = player.dimension.spawnEntity(`minecraft:armor_stand`, player.location);
     body.setRotation(player.getRotation());
     body.nameTag = `${player.name}`;
-    body.addTag(`rolemone:${player.id}`);
-    body.addTag("rolemone:summon_mybody");
+    body.addTag("werewolf_additionalroles-4_ghost_body:summon_mybody");
     if (armorVisibility === false) {
-        body.addEffect(MinecraftEffectTypes.Invisibility, 20 * 20, {
-            amplifier: 0,
-            showParticles: false,
-        });
+        const form = new ActionFormData()
+            .title({
+                translate: WEREWOLF_ADDITIONALROLES_FOUR_TRANSLATE_IDS.GHOST_WOLF_SKILL_FORM_TITLE,
+            })
+            .body({
+                translate:
+                    WEREWOLF_ADDITIONALROLES_FOUR_TRANSLATE_IDS.GHOST_WOLF_SKILL_FORM_DESCRIPTION,
+            })
+
+            .button({
+                translate:
+                    WEREWOLF_ADDITIONALROLES_FOUR_TRANSLATE_IDS.GHOST_WOLF_SKILL_FORM_SELECTION_YES,
+            })
+
+            .button({
+                translate:
+                    WEREWOLF_ADDITIONALROLES_FOUR_TRANSLATE_IDS.GHOST_WOLF_SKILL_FORM_SELECTION_NO,
+            });
+
+        const res = await form.show(player);
+        if (res.canceled || !res.selection) return false;
+        if (res.selection === 0) {
+            body.addEffect(MinecraftEffectTypes.Invisibility, 20 * 20, {
+                amplifier: 0,
+                showParticles: false,
+            });
+        }
+
+        player.playSound("random.orb");
     }
     player.setGameMode(GameMode.Spectator);
     player.nameTag = `§e${player.name}`;

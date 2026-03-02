@@ -17,5 +17,12 @@ export const WEREWOLF_ADDITIONALROLES_FOUR_TRANSLATE_IDS = {
 
     GHOST_WOLF_SKILL_NAME: "werewolf-additionalroles-4.skill.name.ghost-wolf",
 
+    GHOST_WOLF_SKILL_FORM_TITLE: "werewolf-additionalroles-4.skill.ghost-wolf.form.tiitle",
+    GHOST_WOLF_SKILL_FORM_DESCRIPTION:
+        "werewolf-additionalroles-4.skill.ghost-wolf.form.description",
+    GHOST_WOLF_SKILL_FORM_SELECTION_YES:
+        "werewolf-additionalroles-4.skill.ghost-wolf.form.selection.yes",
+    GHOST_WOLF_SKILL_FORM_SELECTION_NO: "werewolf-additionalroles-4.skill.ghost-wolf.form.no",
+
     ROLE_GROUP_NAME_WEREWOLVES: "werewolf-additionalroles-4.roleGroup.name.werewolves",
 };

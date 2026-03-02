@@ -13,7 +13,7 @@ InGamePlayerInteractWithEntity.beforeEvent<PlayerInteractWithEntityBeforeEvent>(
 
     if (
         target.typeId === MinecraftEntityTypes.ArmorStand &&
-        target.hasTag("rolemone:summon_mybody")
+        target.hasTag("werewolf_additionalroles-4_ghost_body:summon_mybody")
     ) {
         ev.cancel = true;
         target.remove();
