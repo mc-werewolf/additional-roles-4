@@ -11,3 +11,10 @@ werewolf-additionalroles-4.skill.message.ghost.start=§b幽体離脱をした...
 werewolf-additionalroles-4.skill.message.ghost.return=§e本体に戻る...§r
 werewolf-additionalroles-4.skill.message.ghost.search.notbody=§c本体が..見つからない...§r
 werewolf-additionalroles-4.skill.message.ghost.notbody.deadlog=§c本体が破壊され、戻れる場所がなくなってしまった...§r
+
+werewolf-additionalroles-4.skill.ghost-wolf.form.title=§4選択§r
+werewolf-additionalroles-4.skill.ghost-wolf.form.description=血筋による能力のおかげで、本体の見た目を透明にできます。
+werewolf-additionalroles-4.skill.ghost-wolf.form.selection.invisible=透明になる
+werewolf-additionalroles-4.skill.ghost-wolf.form.selection.visible=今のままにする
+
+werewolf-additionalroles-4.roleGroup.name.werewolves=人狼

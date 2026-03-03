@@ -11,3 +11,10 @@ werewolf-additionalroles-4.skill.message.ghost.start=§bI’ve left my body...§
 werewolf-additionalroles-4.skill.message.ghost.return=§eReturning to my physical shell...§r
 werewolf-additionalroles-4.skill.message.ghost.search.notbody=§cWhere is my body? It’s... gone.§r
 werewolf-additionalroles-4.skill.message.ghost.notbody.deadlog=§cMy physical shell is shattered. The path back is gone forever§r
+
+werewolf-additionalroles-4.skill.ghost-wolf.form.title=§4Choose§r
+werewolf-additionalroles-4.skill.ghost-wolf.form.description=Thanks to my lineage, I have the power to cloak my physical form in invisibility.
+werewolf-additionalroles-4.skill.ghost-wolf.form.selection.invisible=Make Invisible
+werewolf-additionalroles-4.skill.ghost-wolf.form.selection.visible=Keep visible
+
+werewolf-additionalroles-4.roleGroup.name.werewolves=Werewolves
