@@ -5,7 +5,7 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "build": "node src/generate-event-imports.js && rimraf BP/scripts && tsc --noEmit && node build.mjs && npm run deploy",
+        "build": "node src/generate-event-imports.js && rimraf BP/scripts && tsc --noEmit && node build.mjs && pnpm run deploy",
         "deploy": "node src/deploy.js"
     },
     "repository": {
@@ -27,5 +27,6 @@
         "prettier": "3.6.2",
         "rimraf": "^6.0.1",
         "typescript": "^5.9.2"
-    }
+    },
+    "packageManager": "pnpm@10.31.0"
 }
