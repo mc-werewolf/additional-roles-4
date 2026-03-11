@@ -4,14 +4,16 @@
     "description": "**Stable Script API**\r - @minecraft/server - 2.5.0",
     "main": "index.js",
     "type": "module",
+    "packageManager": "pnpm@10.31.0",
     "scripts": {
+        "clean": "rimraf BP/scripts",
         "typecheck": "tsc --noEmit",
-        "build": "node .build/generate-event-imports.js && rimraf BP/scripts && pnpm run typecheck && node .build/build.mjs && pnpm run deploy",
+        "build": "pnpm run clean && node .build/generate-event-imports.js && pnpm run typecheck && node .build/build.mjs && pnpm run deploy",
         "deploy": "node .build/deploy.js"
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:mc-werewolf/werewolf-template.git"
+        "url": "git@github.com:mc-werewolf/werewolf-additional-roles-4.git"
     },
     "keywords": [],
     "author": "",
@@ -38,6 +40,5 @@
         "prettier": "3.6.2",
         "rimraf": "^6.1.3",
         "typescript": "^5.9.3"
-    },
-    "packageManager": "pnpm@10.31.0"
+    }
 }
