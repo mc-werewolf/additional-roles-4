@@ -1,7 +1,7 @@
 import type { KairoAddonProperties } from "@kairo-js/router";
 
 /**
- * 文末に # が記述されている箇所を適宜修正して使用します。
+ * 譁・忰縺ｫ # 縺瑚ｨ倩ｿｰ縺輔ｌ縺ｦ縺・ｋ邂・園繧帝←螳應ｿｮ豁｣縺励※菴ｿ逕ｨ縺励∪縺吶・
  * Modify and use where # is written at the end of the sentence as appropriate
  */
 export const properties: KairoAddonProperties = {
@@ -24,14 +24,14 @@ export const properties: KairoAddonProperties = {
     dependencies: [
         {
             module_name: "@minecraft/server",
-            version: "2.5.0",
+            version: "2.7.0",
         },
         {
             module_name: "@minecraft/server-ui",
             version: "2.0.0",
         },
     ],
-    /** 前提アドオン */
+    /** 蜑肴署繧｢繝峨が繝ｳ */
     requiredAddons: {
         /**
          * id: version (string) // "kairo": "1.0.0"
