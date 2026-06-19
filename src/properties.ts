@@ -22,7 +22,7 @@ export const properties: KairoAddonProperties = {
     dependencies: [
         {
             module_name: "@minecraft/server",
-            version: "2.7.0",
+            version: "2.8.0",
         },
         {
             module_name: "@minecraft/server-ui",
