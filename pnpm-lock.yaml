@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@kairo-js/build-tools':
-        specifier: file:../../packages/kairo-build-tools
-        version: file:../../packages/kairo-build-tools(@kairo-js/properties@1.2.1)
+        specifier: 1.0.0-beta.2
+        version: 1.0.0-beta.2(@kairo-js/properties@1.2.1)
       '@kairo-js/router':
         specifier: ^0.1.1
         version: 0.1.1(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.8.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2))
@@ -233,8 +233,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@kairo-js/build-tools@file:../../packages/kairo-build-tools':
-    resolution: {directory: ../../packages/kairo-build-tools, type: directory}
+  '@kairo-js/build-tools@1.0.0-beta.2':
+    resolution: {integrity: sha512-Buyxmcth8DALlPVrSzea1ZrFOzd3W9BfbMjzIqDbRDycPMOHv9aPO1xaW058X0UxOPDKJtE5i9r9Lm2LAqcaYA==}
     hasBin: true
     peerDependencies:
       '@kairo-js/properties': ^1.2.1
@@ -460,7 +460,7 @@ snapshots:
   '@esbuild/win32-x64@0.27.3':
     optional: true
 
-  '@kairo-js/build-tools@file:../../packages/kairo-build-tools(@kairo-js/properties@1.2.1)':
+  '@kairo-js/build-tools@1.0.0-beta.2(@kairo-js/properties@1.2.1)':
     dependencies:
       '@kairo-js/properties': 1.2.1
       esbuild: 0.27.3
