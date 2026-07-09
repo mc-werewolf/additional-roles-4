@@ -15,6 +15,7 @@
         "deploy": "kairo-build deploy"
     },
     "kairoBuild": {
+        "artifactName": "werewolf-additionalroles-4",
         "platform": "neutral"
     },
     "repository": {
