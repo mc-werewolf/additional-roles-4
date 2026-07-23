@@ -17,9 +17,9 @@ export const properties: KairoAddonProperties = {
             minor: 1,
             patch: 0,
         },
-        min_engine_version: [1, 21, 132],
+        min_engine_version: { major: 1, minor: 21, patch: 132 },
     },
-    dependencies: [
+    minecraftDependencies: [
         {
             module_name: "@minecraft/server",
             version: "2.8.0",
@@ -30,11 +30,13 @@ export const properties: KairoAddonProperties = {
         },
     ],
     /** 蜑肴署繧｢繝峨が繝ｳ */
-    requiredAddons: {
+    dependencies: {
         /**
          * id: version (string) // "kairo": "1.0.0"
          */
-        "werewolf-gamemanager": "1.0.0-dev.1",
+        kairo: "^1.0.0-beta.0",
+        "kairo-database": "^1.0.0-beta.0",
+        "werewolf-gamemanager": "^0.1.0",
     },
     tags: [],
 };
