@@ -11,6 +11,9 @@ importers:
       '@kairo-js/build-tools':
         specifier: 1.0.0-beta.4
         version: 1.0.0-beta.4(@kairo-js/properties@1.2.1)
+      '@kairo-js/properties':
+        specifier: 1.2.1
+        version: 1.2.1
       '@kairo-js/router':
         specifier: ^0.1.1
         version: 0.1.1(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.8.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2))

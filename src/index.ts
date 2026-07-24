@@ -5,7 +5,11 @@ import { SystemManager } from "@mc-werewolf/game-module";
 import { properties } from "./properties";
 
 async function main(): Promise<void> {
-    Kairo.init(properties);
+    // properties is typed against @kairo-js/properties (needed so `kairo publish`
+    // reads header.min_engine_version/dependencies correctly) but this addon is
+    // still pinned to @kairo-js/router@0.1.1, whose own (stale) KairoAddonProperties
+    // type expects a different shape. The runtime accepts the object shape fine.
+    Kairo.init(properties as unknown as Parameters<typeof Kairo.init>[0]);
 }
 
 Kairo.onActivate = async () => {

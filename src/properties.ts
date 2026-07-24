@@ -1,10 +1,10 @@
-import type { KairoAddonProperties } from "@kairo-js/router";
+import type { AddonProperties } from "@kairo-js/properties";
 
 /**
  * 譁・忰縺ｫ # 縺瑚ｨ倩ｿｰ縺輔ｌ縺ｦ縺・ｋ邂・園繧帝←螳應ｿｮ豁｣縺励※菴ｿ逕ｨ縺励∪縺吶・
  * Modify and use where # is written at the end of the sentence as appropriate
  */
-export const properties: KairoAddonProperties = {
+export const properties: AddonProperties = {
     id: "werewolf-additionalroles-4", // a-z & 0-9 - _
     metadata: {
         authors: ["shizuku86", "Lemonesan123"],
@@ -15,7 +15,7 @@ export const properties: KairoAddonProperties = {
         version: {
             major: 0,
             minor: 1,
-            patch: 0,
+            patch: 1,
         },
         min_engine_version: { major: 1, minor: 21, patch: 132 },
     },
