@@ -17,9 +17,6 @@ importers:
       '@kairo-js/router':
         specifier: 1.0.0-beta.2
         version: 1.0.0-beta.2(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.8.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2))
-      '@mc-werewolf/game-module':
-        specifier: ^0.1.4
-        version: 0.1.4(@kairo-js/router@1.0.0-beta.2(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.8.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2)))(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.8.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2))
       '@minecraft/common':
         specifier: ^1.2.0
         version: 1.2.0
@@ -256,13 +253,6 @@ packages:
 
   '@kairo-js/utils@1.2.1':
     resolution: {integrity: sha512-L5lksOPDRhNiwl3qwNzF0HpGI1FcVciBXl/eCWbcYaP6q8PHtFWfDse1o87Y7QzT9BR93open11R3zLxBi6zUw==}
-
-  '@mc-werewolf/game-module@0.1.4':
-    resolution: {integrity: sha512-wGqiatEyoC+ndkDpdxAu5MNIUrsaOrkPn2BFR0qgjNusMY0o2sQCAQ4HMIx386wqDonzu2PWu/+noBWfIxIPJA==}
-    peerDependencies:
-      '@kairo-js/router': ^0.1.1
-      '@minecraft/server': ^2.5.0
-      '@minecraft/server-ui': ^2.0.0
 
   '@minecraft/common@1.2.0':
     resolution: {integrity: sha512-JdmEq4P3Z/FtoBzhLijFgMSVFnFRrUoLwY8DHHrgtFo0mfLTOLTB1RErYjLMsA6b7BGVNxkX/pfFRiH7QZ0XwQ==}
@@ -549,12 +539,6 @@ snapshots:
       '@types/semver': 7.7.1
       seedrandom: 3.0.5
       semver: 7.8.5
-
-  '@mc-werewolf/game-module@0.1.4(@kairo-js/router@1.0.0-beta.2(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.8.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2)))(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.8.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2))':
-    dependencies:
-      '@kairo-js/router': 1.0.0-beta.2(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.8.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2))
-      '@minecraft/server': 2.8.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2)
-      '@minecraft/server-ui': 2.0.0(@minecraft/vanilla-data@1.26.2)
 
   '@minecraft/common@1.2.0': {}
 
