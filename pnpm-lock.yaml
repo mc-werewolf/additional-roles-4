@@ -18,8 +18,8 @@ importers:
         specifier: 1.0.0-beta.6
         version: 1.0.0-beta.6(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.9.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2))
       '@mc-werewolf/module':
-        specifier: 0.1.0
-        version: 0.1.0(@kairo-js/router@1.0.0-beta.6(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.9.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2)))(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.9.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2))
+        specifier: 0.1.1-beta.0
+        version: 0.1.1-beta.0(@kairo-js/router@1.0.0-beta.6(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.9.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2)))(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.9.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2))
       '@minecraft/common':
         specifier: ^1.2.0
         version: 1.2.0
@@ -252,11 +252,11 @@ packages:
       '@minecraft/server': ^2.9.0
       '@minecraft/server-ui': ^2.0.0
 
-  '@mc-werewolf/module@0.1.0':
-    resolution: {integrity: sha512-lXZmXRcovrlf7N3vSfsavZ7i4xn9q0vFaYdZPNGTJTXOI9YcEYgJX8zSQeGTVOIc86WEA3mt8mxhyRtwMSZTtA==}
+  '@mc-werewolf/module@0.1.1-beta.0':
+    resolution: {integrity: sha512-1Exhe7DUI/HOvPfy+mOSYg4ZWLnXU1LbRHqzGR0u28mafZtSkfOzxgK4RtlZRum8A0MeSo3tkKem9NYwm3EBDQ==}
     peerDependencies:
       '@kairo-js/router': ^1.0.0-beta.0
-      '@minecraft/server': ^2.8.0
+      '@minecraft/server': ^2.9.0 || >=2.9.0-beta <3.0.0
       '@minecraft/server-ui': ^2.0.0
 
   '@minecraft/common@1.2.0':
@@ -478,7 +478,7 @@ snapshots:
       '@minecraft/server': 2.9.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2)
       '@minecraft/server-ui': 2.0.0(@minecraft/vanilla-data@1.26.2)
 
-  '@mc-werewolf/module@0.1.0(@kairo-js/router@1.0.0-beta.6(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.9.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2)))(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.9.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2))':
+  '@mc-werewolf/module@0.1.1-beta.0(@kairo-js/router@1.0.0-beta.6(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.9.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2)))(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.9.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2))':
     dependencies:
       '@kairo-js/router': 1.0.0-beta.6(@minecraft/server-ui@2.0.0(@minecraft/vanilla-data@1.26.2))(@minecraft/server@2.9.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2))
       '@minecraft/server': 2.9.0(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2)

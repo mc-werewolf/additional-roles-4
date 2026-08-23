@@ -29,7 +29,7 @@
         "@kairo-js/cli": "0.1.1-beta",
         "@kairo-js/properties": "1.2.1",
         "@kairo-js/router": "1.0.0-beta.6",
-        "@mc-werewolf/module": "0.1.0",
+        "@mc-werewolf/module": "0.1.1-beta.0",
         "@minecraft/common": "^1.2.0",
         "@minecraft/debug-utilities": "1.0.0-beta.1.20.70-preview.20",
         "@minecraft/diagnostics": "1.0.0-beta.1.21.70-preview.22",

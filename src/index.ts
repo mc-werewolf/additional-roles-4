@@ -1,5 +1,7 @@
 import { router } from "@kairo-js/router";
 import { properties } from "./properties";
+import "./registerRoles";
+import "./registerSkills";
 
 router.init(properties);
 
